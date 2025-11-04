@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>No Commission Ride Share</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>No Commission Ride Share</h1>
+  
+  <div class="form-container">
+    <h2>Post Ride Request</h2>
+  <form id="rideForm">
+  <input type="text" id="from" placeholder="From" required>
+  <input type="text" id="to" placeholder="To" required>
+  <input type="date" id="date" required>
+  <input type="time" id="time" required>
+  <input type="text" id="pickupPoint" placeholder="Pickup Point" required>
+  <input type="number" id="seats" placeholder="Seats Available" required>
+  <input type="tel" id="contactNumber" placeholder="Contact Number" required>
+  <button type="submit">Post Ride</button>
+</form>
+
+  </div>
+
+  <h2>Available Rides</h2>
+  <ul id="rideList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
