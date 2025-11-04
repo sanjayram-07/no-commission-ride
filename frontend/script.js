@@ -26,7 +26,7 @@ document.getElementById("rideForm").addEventListener("submit", async (e) => {
     document.getElementById("rideForm").reset();
     fetchRides(); 
   } catch (error) {
-    alert(" Error posting ride");
+    alert(" Error in posting a ride");
     console.error(error);
   }
 });
